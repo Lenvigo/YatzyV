@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Yatzy_GIT:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Yatzy_GIT_jar</output-path>
+    <root id="archive" name="Yatzy_GIT.jar">
+      <element id="module-output" name="Yatzy_GIT" />
+    </root>
+  </artifact>
+</component>
