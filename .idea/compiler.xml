@@ -6,13 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="yatzy" />
         <module name="Yatzy_GIT" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Yatzy_GIT" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Yatzy_GIT" options="-parameters" />
+      <module name="yatzy" options="-parameters" />
     </option>
   </component>
 </project>
